@@ -1,5 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+/* eslint react/no-danger: 0 */
+import React from "react"
+import PropTypes from "prop-types"
 
 export const HTMLContent = ({ content, className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
@@ -10,8 +11,8 @@ const Content = ({ content, className }) => (
 )
 
 Content.propTypes = {
-  content: PropTypes.string,
-  className: PropTypes.string,
+  content: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired
 }
 
 HTMLContent.propTypes = Content.propTypes
