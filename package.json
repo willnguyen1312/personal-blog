@@ -1,40 +1,39 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "personal-blog-nam",
+  "description": "My personal blog",
+  "url": "https://blog-nam-nguyen.netlify.com/",
   "version": "1.1.1",
-  "author": "Austin Green",
+  "author": "Nam Nguyen",
   "dependencies": {
-    "bulma": "^0.6.0",
-    "gatsby": "^1.9.213",
-    "gatsby-link": "^1.6.37",
-    "gatsby-plugin-netlify-cms": "^1.0.9",
-    "gatsby-plugin-react-helmet": "^2.0.5",
-    "gatsby-plugin-sass": "^1.0.17",
-    "gatsby-plugin-sharp": "^1.6.34",
-    "gatsby-remark-images": "^1.5.50",
-    "gatsby-source-filesystem": "^1.5.23",
-    "gatsby-transformer-remark": "^1.7.33",
-    "gatsby-transformer-sharp": "^1.6.21",
+    "bulma": "^0.6.2",
+    "gatsby": "^1.9.248",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-netlify-cms": "^1.0.12",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sass": "^1.0.25",
+    "gatsby-plugin-sharp": "^1.6.42",
+    "gatsby-remark-images": "^1.5.61",
+    "gatsby-source-filesystem": "^1.5.29",
+    "gatsby-transformer-remark": "^1.7.39",
+    "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.5",
     "lodash-webpack-plugin": "^0.11.4",
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "start": "npm run develop",
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -o",
     "serve": "gatsby serve",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\""
   },
   "devDependencies": {
-    "prettier": "^1.7.4"
+    "prettier": "^1.12.0"
   }
 }
